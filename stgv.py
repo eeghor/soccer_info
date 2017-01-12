@@ -6,6 +6,19 @@ import pprint
 from collections import namedtuple, defaultdict
 import wikipedia
 
+# start from looking up the A-League Wikipedia page
+aleague_wiki_url = wikipedia.page("A-League").url
+
+# there's supposed to be a table with the current teams
+page = requests.get(aleague_wiki_url)
+soup = BeautifulSoup(page.content, 'html.parser')
+
+team_table = soup.find("th", text=re.compile("Current\s*clubs")).parent.parent
+
+for row in team_table.find_all("tr")[2:]:
+	print(row.text)
+
+# A-League team names; these will be used to search on Wikipedia so should be complete enough
 aleague_teams = ["Sydney FC", "Adelaide United", "Brisbane Roar FC", "Melbourne City FC", "Newcastle Jets", "Central Coast Mariners",
 "Melbourne Victory", "Perth Glory", "Wellington Phoenix", "Western Sydney Wanderers"]
 
