@@ -1,0 +1,58 @@
+[
+{"names": {"coopers stadium", "hindmarsh stadium"},
+"town_city": "adelaide",
+"country": "australia"
+},
+{"names": {"suncorp stadium", "john brown oval", "suncorp-metway stadium", "lang park", "suncorp-supa stadium", "brisbane stadium"},
+"town_city": "brisbane",
+"country": "australia"
+},
+{"names": {"central coast stadium", "bluetongue stadium"},
+"town_city": "gosford",
+"country": "australia"
+},
+{"names": {"aami park", "melbourne rectangular stadium"},
+"town_city": "melbourne",
+"country": "australia"
+},
+{"names": {"etihad stadium", "docklands stadium", "colonial stadium", "telstra dome"},
+"town_city": "melbourne",
+"country": "australia"
+},
+{"names": {"mcdonald jones stadium", "newcastle international sports centre", "marathon stadium", "energyaustralia stadium", "ausgrid stadium", "hunter stadium", "newcastle stadium"},
+"town_city": "newcastle",
+"country": "australia"
+},
+{"names": {"nib stadium", "perth oval", "loton park", "members equity stadium", "me bank stadium"},
+"town_city": "perth",
+"country": "australia"
+},
+{"names": {"allianz stadium", "sydney football stadium", "sfs", "aussie stadium"},
+"town_city": "sydney",
+"country": "australia"
+},
+{"names": {"westpac stadium", "westpactrust stadium", "wellington regional stadium"},
+"town_city": "wellington",
+"country": "new zealand"
+},
+{"names": {"sydney showground stadium", "spotless stadium", "skoda stadium", "sydney showground main arena", "sydney baseball stadium"},
+"town_city": "sydney",
+"country": "australia"
+},
+{"names": {"anz stadium", "stadium australia", "telstra stadium"},
+"town_city": "sydney",
+"country": "australia"
+},
+{"names": {"cbus super stadium", "robina stadium", "skilled park"},
+"town_city": "gold coast",
+"country": "australia"
+},
+{"names": {"north harbour stadium", "qbe stadium"},
+"town_city": "auckland",
+"country": "new zealand"
+},
+{"names": {"willows sports complex", "stockland stadium", "malanda stadium","dairy farmers stadium", "1300 smiles stadium"},
+"town_city": "townsville",
+"country": "australia"
+}
+]
